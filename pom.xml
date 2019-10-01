@@ -196,6 +196,7 @@
                     <dockerDirectory>${project.basedir}/docker-extension/my-blog</dockerDirectory>
                     <resources>
                         <resource>
+                            <!--.....-->
                             <targetPath>/</targetPath>
                             <directory>${project.build.directory}</directory>
                             <include>${project.build.finalName}.jar</include>
